@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#messageBox {
+  text-align: right;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 15px;
+  margin-left: 35%;
+  width: 550px;
+  height: 500px;
+  border: 1px solid black;
+  overflow: scroll;
+}
+
+#messageInput {
+  width: 350px;
+  height: 40px;
+  margin-left: 38%;
+  font-size: x-large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 100px;
+  cursor: text;
+  float: left;
+}
+
+#sendButton {
+  background-color: #2D9CD5;
+  color: whitesmoke;
+  height: 50px;
+  width: 90px;
+  margin-left: 5px;
+  border-radius: 15px;
+  font-size: x-large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  cursor: pointer;
+  float: left;
+}
+
+#controls{
+  height: 50px;
+  margin-top: 10px;
+}
+
+.newMessageContainer{
+  float: right;
+  margin-right: 5px;
+  border: 0.5px solid black;
+  border-radius: 15px;
+  background-color: #2FB8FF;
+  opacity: .8;
+  inline-size: 500px;
+  overflow-wrap: break-word;
+}
+
+.population {
+  float: left;
+  position: relative;
+}
+
+.region {
+  float: left;
+  position: relative;
+  clear: both;
+}
+
+.capital-city {
+  float: left;
+  position: relative;
+  clear: both;
+}
